@@ -9,6 +9,9 @@ abstract class AppColor {
 
   static const background = Color(0xffF3F4F5);
 
+  static const kakao = Color(0xffFEE601);
+  static const naver = Color(0xff02C75C);
+
   static const gray010 = Color(0xFFFCFCFC);
   static const gray020 = Color(0xFFFAFAFA);
   static const gray030 = Color(0xFFF5F5F5);

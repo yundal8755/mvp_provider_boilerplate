@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mvp_provider_boilerplate/common/api/social_response_model.dart';
-import 'package:mvp_provider_boilerplate/common/provider/auth_provider.dart';
-import 'package:mvp_provider_boilerplate/feature/auth/presentation/type/social_login_type.dart';
+import 'package:mvp_provider_boilerplate/app/api/social_response_model.dart';
+import 'package:mvp_provider_boilerplate/presentation/providers/auth_provider.dart';
+import 'package:mvp_provider_boilerplate/presentation/pages/sign_in/type/social_login_type.dart';
 import 'package:provider/provider.dart';
 
 class SignInViewModel {

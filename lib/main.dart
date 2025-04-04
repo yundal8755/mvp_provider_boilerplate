@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mvp_provider_boilerplate/app/router/routes.dart';
 import 'package:mvp_provider_boilerplate/app/style/app_size.dart';
 import 'package:mvp_provider_boilerplate/app/style/app_theme.dart';
-import 'package:mvp_provider_boilerplate/common/provider/auth_provider.dart';
+import 'package:mvp_provider_boilerplate/presentation/providers/auth_provider.dart';
 import 'package:provider/provider.dart';
 
 void main() async {

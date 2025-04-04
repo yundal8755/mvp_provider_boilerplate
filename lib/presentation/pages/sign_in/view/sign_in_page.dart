@@ -3,9 +3,9 @@ import 'package:flutter_svg/svg.dart';
 import 'package:gap/gap.dart';
 import 'package:mvp_provider_boilerplate/app/constant/assets.dart';
 import 'package:mvp_provider_boilerplate/app/style/app_color.dart';
-import 'package:mvp_provider_boilerplate/common/widget/icon_text_button.dart';
-import 'package:mvp_provider_boilerplate/feature/auth/presentation/type/social_login_type.dart';
-import 'package:mvp_provider_boilerplate/feature/auth/presentation/view_model/sign_in_view_model.dart';
+import 'package:mvp_provider_boilerplate/presentation/widgets/icon_text_button.dart';
+import 'package:mvp_provider_boilerplate/presentation/pages/sign_in/type/social_login_type.dart';
+import 'package:mvp_provider_boilerplate/presentation/pages/sign_in/view_model/sign_in_view_model.dart';
 
 class SignInPage extends StatefulWidget {
   const SignInPage({super.key});

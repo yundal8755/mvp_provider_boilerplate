@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mvp_provider_boilerplate/common/component/button/cool_button.dart';
-import 'package:mvp_provider_boilerplate/common/component/button/cool_button_style.dart';
+import 'package:mvp_provider_boilerplate/presentation/components/button/cool_button.dart';
+import 'package:mvp_provider_boilerplate/presentation/components/button/cool_button_style.dart';
 
 class IconTextButton extends StatelessWidget {
   final String text;

@@ -1,7 +1,7 @@
 import 'package:bounce_tapper/bounce_tapper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:mvp_provider_boilerplate/common/component/button/cool_button_style.dart';
+import 'package:mvp_provider_boilerplate/presentation/components/button/cool_button_style.dart';
 
 class CoolButton extends StatefulWidget {
   final Widget child;

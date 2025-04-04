@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:mvp_provider_boilerplate/app/router/routes.dart';
-import 'package:mvp_provider_boilerplate/common/component/button/cool_button.dart';
-import 'package:mvp_provider_boilerplate/feature/home/presentation/view_model/home_view_model.dart';
+import 'package:mvp_provider_boilerplate/presentation/components/button/cool_button.dart';
+import 'package:mvp_provider_boilerplate/presentation/pages/home/home_view_model.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

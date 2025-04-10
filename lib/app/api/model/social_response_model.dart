@@ -1,3 +1,8 @@
+import 'package:json_annotation/json_annotation.dart';
+
+part 'social_response_model.g.dart';
+
+@JsonSerializable()
 class SocialResponseModel {
   final String email;
   final String signupCode;
@@ -8,4 +13,6 @@ class SocialResponseModel {
     required this.signupCode,
     required this.signupMethod,
   });
+
+  Map<String, dynamic> toJson() => _$SocialResponseModelToJson(this);
 }

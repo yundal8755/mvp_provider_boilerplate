@@ -25,9 +25,17 @@ dependencies:
   bounce_tapper: ^1.1.4
   flutter_svg: ^2.0.17
   gap: ^3.0.1
+  cookie_jar: ^4.0.8
+  dio_cookie_manager: ^3.2.0
+  path_provider: ^2.1.5
+  json_annotation: ^4.9.0
 
 dev_dependencies:
   flutter_lints: ^4.0.0
+  build_runner: ^2.4.13
+  json_serializable: ^6.9.0
+
+
 
 flutter:
   uses-material-design: true

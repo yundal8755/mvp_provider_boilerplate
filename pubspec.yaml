@@ -48,7 +48,7 @@ flutter:
     - assets/icons/
     - assets/images/
     - assets/translations/
-    - assets/lottie/
+    - assets/lotties/
     - assets/json/
 
   fonts:

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:gap/gap.dart';
-import 'package:mvp_provider_boilerplate/app/constant/assets.dart';
+import 'package:mvp_provider_boilerplate/app/constant/app_asset.dart';
 import 'package:mvp_provider_boilerplate/app/style/app_color.dart';
 import 'package:mvp_provider_boilerplate/presentation/widgets/icon_text_button.dart';
 import 'package:mvp_provider_boilerplate/presentation/pages/sign_in/type/social_login_type.dart';

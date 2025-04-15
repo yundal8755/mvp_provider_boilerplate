@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mvp_provider_boilerplate/app/api/model/social_response_model.dart';
+import 'package:mvp_provider_boilerplate/data/api/model/social_response_model.dart';
 import 'package:mvp_provider_boilerplate/presentation/providers/auth_provider.dart';
 import 'package:mvp_provider_boilerplate/presentation/pages/sign_in/type/social_login_type.dart';
 import 'package:provider/provider.dart';

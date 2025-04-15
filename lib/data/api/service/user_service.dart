@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:mvp_provider_boilerplate/app/api/api_service.dart';
-import 'package:mvp_provider_boilerplate/app/api/model/response_model.dart';
+import 'package:mvp_provider_boilerplate/data/api/api_service.dart';
+import 'package:mvp_provider_boilerplate/data/api/model/response_model.dart';
 
 class UserService {
   final ApiService _api = ApiService();

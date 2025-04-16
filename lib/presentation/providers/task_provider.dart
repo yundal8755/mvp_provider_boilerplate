@@ -1,11 +1,12 @@
 import 'package:flutter/foundation.dart';
+import 'package:get_it/get_it.dart';
 import '../../data/repository/task_repository.dart';
 import '../../domain/task_entity.dart';
 
 class TaskProvider extends ChangeNotifier {
-  final TaskRepository _taskRepository;
+  final TaskRepository _taskRepository = GetIt.instance<TaskRepository>();
 
-  TaskProvider(this._taskRepository);
+  TaskProvider();
 
   // 로컬 캐싱할 Entity 목록
   List<TaskEntity> _tasks = [];

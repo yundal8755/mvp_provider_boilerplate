@@ -3,6 +3,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:intl/intl.dart';
+import 'package:mvp_provider_boilerplate/app/di/service_locator.dart';
 import 'package:mvp_provider_boilerplate/app/router/routes.dart';
 import 'package:mvp_provider_boilerplate/app/style/app_size.dart';
 import 'package:mvp_provider_boilerplate/app/style/app_theme.dart';
@@ -21,6 +22,9 @@ void main() async {
   await initializeDateFormatting('ko_KR', null);
   Intl.defaultLocale = 'ko_KR';
 
+  // get_it 의존성 등록
+  setupLocator();
+
   /// RUN APP
   runApp(const App());
 }
@@ -36,7 +40,7 @@ class App extends StatelessWidget {
           create: (_) => AuthProvider(),
         ),
         ChangeNotifierProvider<TaskProvider>(
-          create: (_) => TaskProvider(TaskRepository()),
+          create: (_) => TaskProvider(),
         ),
       ],
       child: ScreenUtilInit(
